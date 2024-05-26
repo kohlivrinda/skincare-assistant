@@ -1,6 +1,8 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
+import polars as pl
+
 
 def img_proc(img):
     w, h = img.size    
